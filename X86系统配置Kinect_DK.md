@@ -224,9 +224,9 @@ https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/
 ## 四 解决驱动
 
    1.深度引擎文件
-   从该链接中https://packages.microsoft.com/ubuntu/18.04/multiarch/prod/pool/main/libk/ 下载libk4a1.4。从中解压出深度引擎文件ibdepthengine.so.2.0，复制到/usr/lib/aarch64-linux-gnu
+   从该链接中https://packages.microsoft.com/ubuntu/18.04/prod/pool/main/libk/ 下载libk4a1.4。从中解压出深度引擎文件ibdepthengine.so.2.0，复制到/usr/lib/x86_64-linux-gnu
    
-   `sudo cp libdepthengine.so.2.0 /usr/lib/aarch64-linux-gnu`
+   `sudo cp libdepthengine.so.2.0 /usr/lib/x86_64-linux-gnu`
    
    2.解决sudo 权限问题
    
